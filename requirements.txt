@@ -1,0 +1,12 @@
+streamlit
+streamlit_pdf_viewer
+python-dotenv
+snowflake[ml]
+# amazon textract pdf loader
+boto3 
+pypdfium2
+amazon-textract-caller
+amazon-textract-textractor
+langchain_community
+deepgram-sdk # video transcript
+moviepy

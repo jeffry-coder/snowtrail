@@ -1,0 +1,6 @@
+Question,Answer
+What is MYCIN and why was it never used in practice?,MYCIN is a rule-based expert system developed in the 1970s to advise physicians on antimicrobial therapy. It was not used due to legal and ethical issues.
+What are some reasons why AI in healthcare is more promising today compared to the past?,"Increased EHR adoption, availability of public datasets, standardization of medical codes, and advancements in machine learning techniques."
+How can machine learning transform emergency departments?,"By automating data extraction from electronic medical records to improve triage, diagnosis, and prevent medical errors."
+What are some challenges unique to machine learning in healthcare?,"Need for robust algorithms due to life-critical decisions, patient data sensitivity, and differences in training vs testing data distributions."
+What are some examples of publicly available healthcare datasets?,"MIMIC (critical care records), CheXpert (chest X-ray images), and others like wearable devices data."

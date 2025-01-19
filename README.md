@@ -1,0 +1,1 @@
+# SnowTrail - Navigate the path to your lecture’s key moments

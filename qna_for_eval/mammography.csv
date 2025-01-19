@@ -1,0 +1,6 @@
+Question,Answer
+What are the two primary challenges in mammographic analysis for early breast cancer detection?,Accurate risk assessment tools and effective screening tests.
+What are the four categories of breast tissue density used in medical practice?,"Fatty (low density), scattered, heterogeneously dense, and dense."
+What is the main advantage of using 3D tomosynthesis over 2D mammography?,"It helps reveal cancerous tissues that might be obscured in 2D projections, especially in dense breast tissue."
+Why is the class imbalance a challenge in applying deep learning to mammogram datasets?,"Only around 0.7% of inputs are positive cases, making it harder to train effective models."
+What was the AUC achieved by the hybrid deep learning model (image + classical features) for mammogram risk assessment?,The hybrid model achieved an AUC of 0.7.

@@ -1,0 +1,6 @@
+Question,Answer
+What is the primary challenge with using billing codes for clinical research?,"Billing codes often do not accurately reflect the patient's actual condition as they are designed for insurance purposes rather than clinical diagnosis, leading to low predictive values."
+How does natural language processing (NLP) contribute to improving positive predictive value (PPV) in clinical studies?,"NLP enhances PPV by extracting meaningful data from clinical narratives, such as discharge summaries, which complements codified data to provide a more accurate diagnosis prediction."
+What are some goals of NLP in healthcare as discussed in the lecture?,"Goals include assigning meanings to words, determining if information is protected health information, identifying relationships, and summarizing medical text."
+Explain the significance of the Unified Medical Language System (UMLS) in NLP for healthcare.,"UMLS unifies diverse medical terminologies into a standardized meta-thesaurus, helping normalize data across systems and expand linguistic expressions for better NLP analysis."
+What is the role of term spotting and negation handling in clinical NLP?,"Term spotting identifies indicative terms in text, while negation handling improves specificity by distinguishing between affirmed and negated conditions."

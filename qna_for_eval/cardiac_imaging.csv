@@ -1,0 +1,6 @@
+Question,Answer
+What is the primary function of the heart in the circulatory system?,"The primary function of the heart is to pump oxygenated blood throughout the circulatory system, delivering oxygen and removing waste from cells."
+What are the two circulations the heart conducts in series?,The heart conducts pulmonary circulation to pump deoxygenated blood to the lungs and systemic circulation to pump oxygenated blood to the rest of the body.
+Which imaging technique uses ultrasound and is commonly used for diagnosing heart conditions like heart failure?,Echocardiography uses ultrasound technology and is commonly used to diagnose conditions such as heart failure and valvular disease.
+What challenge does cardiac motion pose to high-quality imaging scans?,"Cardiac motion caused by the patient’s breathing and the heart’s movement can corrupt images, requiring high temporal frequency or gating techniques to obtain clear scans."
+What is a significant benefit of applying machine learning to cardiac imaging?,"Machine learning can augment interpretations of cardiac imaging, enabling faster and more accurate diagnostics, such as automated echocardiogram interpretation."

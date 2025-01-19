@@ -1,0 +1,6 @@
+Question,Answer
+What is risk stratification and why is it important in healthcare?,"Risk stratification is the process of categorizing patients into different risk levels to predict and prevent adverse outcomes, such as hospital readmissions or worsening health conditions. It helps improve patient outcomes and reduce healthcare costs."
+What is the difference between traditional scoring systems and ML-based risk stratification?,"Traditional systems like the Apgar score use predefined criteria for risk, while ML-based methods handle high-dimensional data, are faster to develop, and often provide greater accuracy."
+How is label leakage managed in diabetes prediction models?,"By including a gap between data collection and prediction, ensuring that signals from pre-diagnosis interventions are not incorrectly used for future predictions."
+What types of data are used in risk stratification for diabetes?,"Data includes patient demographics, medical history, lab results, and medication records, often encoded as binary features to address missing data."
+Why is L1 regularization used in logistic regression for risk stratification?,"L1 regularization encourages sparsity in feature weights, reducing overfitting, improving interpretability, and enhancing model translatability."
