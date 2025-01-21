@@ -20,7 +20,7 @@ SnowTrail is an innovative e-learning platform that helps teachers and students 
   - Secure data storage and management
   - Efficient content retrieval system
  
-- **Trulens Evaluation**
+- **Trulens Evaluation**  
 source code is on `evaluation.ipynb`. two experiments were conducted:
   - Local search vs Global search (test the purpose of filter by lecture name)
   - Chunk duration (30 sec, 1 min, 2 min)
