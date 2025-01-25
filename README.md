@@ -19,6 +19,12 @@ SnowTrail is an innovative e-learning platform that helps teachers and students 
 - **Snowflake Integration**
   - Secure data storage and management
   - Efficient content retrieval system
+ 
+- **Trulens Evaluation**  
+source code is on `evaluation.ipynb`. two experiments were conducted:
+  - Local search vs Global search (test the purpose of filter by lecture name)
+  - Chunk duration (30 sec, 1 min, 2 min)
+we score the app versions across key metrics: context, answer relevance and groundedness. 
 
 ## 📁 Project Structure
 
@@ -27,7 +33,6 @@ SnowTrail is an innovative e-learning platform that helps teachers and students 
 - `/courses`: organized into lecture subfolders, with PDF and MP4 content
 - `/pipeline`: content ingestion and retrieval pipelines
 - `/qna_for_eval`: questions to evaluate RAG chain
-- `evaluation.ipynb`: scripts to score RAG triad across app versions
 
 ## 🚀 Getting Started
 
@@ -53,8 +58,7 @@ cd snowtrail
 pip install -r requirements.txt
 ```
 
-To evaluate the RAG chain, you may explore the notebook in `evaluation.ipynb`.
-Make sure to install this libraries beforehand:
+Before running `evaluation.ipynb`, please install the additional libraries:
 ```bash
 pip install trulens trulens-providers-cortex
 ```
