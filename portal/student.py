@@ -12,7 +12,11 @@ def init_snow_session():
 @st.dialog("📄 Full PDF Viewer", width="large")
 def full_pdf_viewer(pdf_path, page_num):
     with st.container(height=600):
-        pdf_viewer(str(pdf_path), scroll_to_page=page_num, key="full_view_pdf")
+        pdf_viewer(
+            str(pdf_path),
+            scroll_to_page=page_num,
+            key=f"full_view_pdf_{pdf_path}_{page_num}",
+        )
 
 
 def student_portal():
@@ -153,7 +157,7 @@ def student_portal():
                         full_pdf_viewer(pdf_path, page_num)
 
                 with st.container(height=300):
-                    pdf_viewer(pdf_path, scroll_to_page=page_num, key="preview_pdf")
+                    pdf_viewer(pdf_path, scroll_to_page=page_num, key=f"preview_pdf_{pdf_path}_{page_num}")
             else:
                 st.info("This lecture does not contain notes")
 
